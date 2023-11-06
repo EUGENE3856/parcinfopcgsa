@@ -1,0 +1,34 @@
+@import url();
+
+.redressed
+    {
+        font-family: 'redressed',cursive;
+    }
+.merriweather
+    {
+        font-family: 'merriweather',serif;
+    }
+
+.cc-navbar
+    {
+        background-color: rgba(10, 87, 3, 0.55);
+        font-family: 'merriweather', serif;
+        box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    }
+.cc-navbar .nav-link
+    {
+        border-bottom: 3px solid transparent;
+        transition: padding-bottom .4s ease-in-out, border-color .3s ease;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+.cc-navbar .nav-link:hover
+    {
+        padding-bottom: 10px;
+        border-bottom-color: var(--bs-teal);
+    }
+.banner-desc
+    {
+        font-size: 25px;
+        font-weight: 400;
+        color: #fff;
+    }
